@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol | Sabot Yazılım</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html"><img src="logo.jpg" class="logo-img" alt="Sabot Yazılım"></a>
+            <nav><a href="index.html">← Ana Sayfaya Dön</a></nav>
+        </div>
+    </header>
+
+    <main class="container detail-page" style="min-height: 70vh; display: flex; flex-direction: column; justify-content: center;">
+        <section class="service-hero" style="margin-bottom: 20px;">
+            <h1 style="font-size: 2.5rem;">Aramıza Katılın</h1>
+            <p>Projelerinizi yönetmek için ücretsiz hesabınızı oluşturun.</p>
+        </section>
+
+        <form action="#" method="POST" style="background: #161b22; padding: 40px; border-radius: 20px; border: 1px solid #30363d; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+            <input type="text" name="ad_soyad" placeholder="Adınız Soyadınız" required>
+            <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+            <input type="text" name="telefon" placeholder="Telefon Numaranız">
+            <input type="password" name="password" placeholder="Şifre Belirleyin" required>
+            
+            <button type="submit" style="margin-top: 10px;">Kayıt Ol</button>
+            
+            <div style="margin-top: 20px; text-align: center; font-size: 0.9rem; color: #8b949e;">
+                Zaten hesabınız var mı? <a href="giris.html" style="color: #00d4ff; text-decoration: none;">Giriş Yapın</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
